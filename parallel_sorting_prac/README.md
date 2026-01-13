@@ -1,6 +1,5 @@
 # parallel_sorting_prac
-this practice implements four variations of sorting N numbers using BubbleSort and MergeSort, 
-with measurements of CPU execution time under different parallel models
+This practice implements four variations of sorting N numbers using BubbleSort and MergeSort, with measurements of CPU execution time under different parallel models.
 
 ## 實現以下四種方法
 **method 1**：將 N 筆數字直接進行 BubbleSort，並顯示 CPU 執行之時間  
