@@ -10,13 +10,13 @@ with measurements of CPU execution time under different parallel models.
 
 ## 讀檔格式
 測資放在 [`input/`](input/) 資料夾中，如：
-- 一萬筆資料：[input_1w.txt](algo-ds-practice/parallel_sorting_prac/input/input_1w.txt)
-- 十萬筆資料：[input_10w.txt](algo-ds-practice/parallel_sorting_prac/input/input_10w.txt)
-- 五十萬筆資料：[input_50w.txt](algo-ds-practice/parallel_sorting_prac/input/input_50w.txt)
-- 一百萬筆資料：[input_100w.txt](algo-ds-practice/parallel_sorting_prac/input/input_100w.txt)
+- 一萬筆資料：[input_1w.txt](input/input_1w.txt)
+- 十萬筆資料：[input_10w.txt](input/input_10w.txt)
+- 五十萬筆資料：[input_50w.txt](input/input_50w.txt)
+- 一百萬筆資料：[input_100w.txt](input/input_100w.txt)
 
 ## 寫檔格式
-Output 檔名格式：{ Input File Name }_output{ Method Number }.txt，如 [`output/`](algo-ds-practice/parallel_sorting_prac/output/) 資料夾中的檔案，此資料夾有所有資料筆數及方法的輸出。每個檔案有排序完的資料、執行時間和 Output Time，如以下：
+Output 檔名格式：{ Input File Name }_output{ Method Number }.txt，如 [`output/`](output/) 資料夾中的檔案，此資料夾有所有資料筆數及方法的輸出。每個檔案有排序完的資料、執行時間和 Output Time，如以下：
 ```
 Sort :
 8
@@ -33,7 +33,7 @@ Output Time : 2024-11-20 15:16:04.000404+08:00
 ```
 
 ## 程式執行方式
-[main.py](algo-ds-practice/parallel_sorting_prac/main.py) 編譯並執行後會提供輸入
+[main.py](main.py) 編譯並執行後會提供輸入
 - 範例一：不需要輸入 K  
 method: 1
     ```
@@ -49,4 +49,4 @@ method: 2, 3, 4
     ```
 
 ## 結果
-詳細書面報告在 [report.pdf](algo-ds-practice/parallel_sorting_prac/report.pdf) 中
+詳細書面報告在 [report.pdf](report.pdf) 中
