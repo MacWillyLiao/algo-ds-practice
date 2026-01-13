@@ -9,7 +9,7 @@ with measurements of CPU execution time under different parallel models.
 **method 4**：將 N 筆數目字切成 K 份，並由 K 個 threads 各別進行 BubbleSort 之後，再用 K-1 個 thread（s）作 MergeSort，並顯示 CPU 執行之時間
 
 ## 讀檔格式
-測資放在 [`input/`](algo-ds-practice/parallel_sorting_prac/input/) 資料夾中，如：
+測資放在 [`input/`](input/) 資料夾中，如：
 - 一萬筆資料：[input_1w.txt](algo-ds-practice/parallel_sorting_prac/input/input_1w.txt)
 - 十萬筆資料：[input_10w.txt](algo-ds-practice/parallel_sorting_prac/input/input_10w.txt)
 - 五十萬筆資料：[input_50w.txt](algo-ds-practice/parallel_sorting_prac/input/input_50w.txt)
