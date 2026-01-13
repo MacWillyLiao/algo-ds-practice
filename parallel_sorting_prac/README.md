@@ -9,14 +9,14 @@ with measurements of CPU execution time under different parallel models.
 **method 4**：將 N 筆數目字切成 K 份，並由 K 個 threads 各別進行 BubbleSort 之後，再用 K-1 個 thread（s）作 MergeSort，並顯示 CPU 執行之時間
 
 ## 讀檔格式
-測資放在 [`input/`](algo-ds-practice/parallel_sorting_prac/data/input/) 資料夾中，如：
-- 一萬筆資料：[input_1w.txt](algo-ds-practice/parallel_sorting_prac/data/input/input_1w.txt)
-- 十萬筆資料：[input_10w.txt](algo-ds-practice/parallel_sorting_prac/data/input/input_10w.txt)
-- 五十萬筆資料：[input_50w.txt](algo-ds-practice/parallel_sorting_prac/data/input/input_50w.txt)
-- 一百萬筆資料：[input_100w.txt](algo-ds-practice/parallel_sorting_prac/data/input/input_100w.txt)
+測資放在 [`input/`](algo-ds-practice/parallel_sorting_prac/input/) 資料夾中，如：
+- 一萬筆資料：[input_1w.txt](algo-ds-practice/parallel_sorting_prac/input/input_1w.txt)
+- 十萬筆資料：[input_10w.txt](algo-ds-practice/parallel_sorting_prac/input/input_10w.txt)
+- 五十萬筆資料：[input_50w.txt](algo-ds-practice/parallel_sorting_prac/input/input_50w.txt)
+- 一百萬筆資料：[input_100w.txt](algo-ds-practice/parallel_sorting_prac/input/input_100w.txt)
 
 ## 寫檔格式
-Output 檔名格式：{ Input File Name }_output{ Method Number }.txt，如 [`output/`](algo-ds-practice/parallel_sorting_prac/data/output/) 資料夾中的檔案，此資料夾有所有資料筆數及方法的輸出。每個檔案有排序完的資料、執行時間和 Output Time，如以下：
+Output 檔名格式：{ Input File Name }_output{ Method Number }.txt，如 [`output/`](algo-ds-practice/parallel_sorting_prac/output/) 資料夾中的檔案，此資料夾有所有資料筆數及方法的輸出。每個檔案有排序完的資料、執行時間和 Output Time，如以下：
 ```
 Sort :
 8
