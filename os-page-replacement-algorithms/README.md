@@ -12,7 +12,6 @@ including FIFO, LRU, LFU+FIFO, MFU+FIFO, LFU+LRU, and a combined ALL method.
 
 ## 讀檔格式
 第 1 列的第 1 個數字為方法，方法 1 到 6：  
-|   |   |   |
 |:--:|:--:|:--:|
 | 1. FIFO | 2. LRU | 3. LFU+FIFO |
 | 4. MFU+FIFO | 5. LFU+LRU | 6. ALL |
