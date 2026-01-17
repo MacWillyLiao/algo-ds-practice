@@ -15,7 +15,8 @@ This practice implements four variations of sorting N numbers using BubbleSort a
 - 一百萬筆資料：[input_100w.txt](input/input_100w.txt)
 
 ## 寫檔格式
-Output 檔名格式：{ Input File Name }_output{ Method Number }.txt，如 [`output/`](output/) 資料夾中的檔案，此資料夾有所有資料筆數及方法的輸出。每個檔案有排序完的資料、執行時間和 Output Time，如以下：
+Output 檔名格式：{ Input File Name }_output{ Method Number }.txt，如 [`output/`](output/) 資料夾中的檔案，此資料夾有所有資料筆數及方法的輸出。  
+每個檔案有排序完的資料、執行時間和 Output Time，如以下：
 ```
 Sort :
 8
