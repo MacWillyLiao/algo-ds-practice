@@ -1,5 +1,7 @@
 from queue import Queue
 from collections import defaultdict
+from queue import Queue
+
 
 def read_input_file(file_path):
     with open(file_path, 'r') as f:
@@ -8,6 +10,7 @@ def read_input_file(file_path):
     page_frames = int(lines[0].split()[1])
     page_references = [int(digit) for digit in lines[1].split()[0]]
     return method, page_frames, page_references
+
 
 def write_output_file(outputFile, writeMode, methodName, pageFrameNum, 
                       pageReferList, page_replaces, page_frame_ls, page_fault_ls, paragraph_space):
@@ -28,7 +31,7 @@ def write_output_file(outputFile, writeMode, methodName, pageFrameNum,
         if paragraph_space == True:
             f.write('\n')
 
-from queue import Queue
+
 
 def FIFO(pageFrameNum, pageReferList):
     queue = Queue()
@@ -53,6 +56,7 @@ def FIFO(pageFrameNum, pageReferList):
         page_frame_ls.append(string)
 
     return page_replaces, page_frame_ls, page_fault_ls
+
 
 def LRU(pageFrameNum, pageReferList): 
     page_frame = []
@@ -92,6 +96,7 @@ def LRU(pageFrameNum, pageReferList):
   
     return page_replaces, page_frame_ls, page_fault_ls
 
+
 def LFUaddFIFO(pageFrameNum, pageReferList):
     mp = defaultdict(int)
     queue = Queue()
@@ -127,6 +132,7 @@ def LFUaddFIFO(pageFrameNum, pageReferList):
 
     return page_replaces, page_frame_ls, page_fault_ls
 
+
 def MFUaddFIFO(pageFrameNum, pageReferList):
     mp = defaultdict(int)
     queue = Queue()
@@ -161,6 +167,7 @@ def MFUaddFIFO(pageFrameNum, pageReferList):
         page_frame_ls.append(string)
 
     return page_replaces, page_frame_ls, page_fault_ls
+
 
 def LFUaddLRU(pageFrameNum, pageReferList):
     page_frame = []
@@ -202,6 +209,7 @@ def LFUaddLRU(pageFrameNum, pageReferList):
         page_frame_ls.append(string)
 
     return page_replaces, page_frame_ls, page_fault_ls
+
 
 def main():
     fileName = input('Enter file name (eg. input1_method1, input2 ...) : ')
@@ -254,6 +262,7 @@ def main():
             print('Invalid method')
 
     print('\n### Results in ' + outputFile + ' ###\n')
+
 
 if __name__ == "__main__":
     main()
