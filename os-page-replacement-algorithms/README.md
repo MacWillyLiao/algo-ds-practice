@@ -19,11 +19,11 @@ including FIFO, LRU, LFU+FIFO, MFU+FIFO, LFU+LRU, and a combined ALL method.
 5. LFU+LRU
 6. ALL  
 
-第 1 列的第 2 個數字為 Page Frame 的個數，皆為正整數，範圍不定  
+第 1 列的第 2 個數字為 Page Frame 的個數，皆為正整數，範圍不定。
 
-第 2 列為 Page Reference 的次序  
+第 2 列為 Page Reference 的次序。  
 
-不同欄位之間會用 "空白" 或是 "tab" 隔開  
+不同欄位之間會用 "空白" 或是 "tab" 隔開。
 
 **詳細輸入格式請參照 [`input/`](input/) 資料夾中的檔案**
 
