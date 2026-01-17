@@ -4,6 +4,7 @@ import queue
 import multiprocessing
 import numpy as np
 
+
 def BubbleSort(data_ls, q):
     list_len = len(data_ls)
     for i in range(list_len):
@@ -13,6 +14,7 @@ def BubbleSort(data_ls, q):
 
     if q is not None:
         q.put(data_ls)
+
 
 def MergeSort(list1, list2, q):
     l1_i, l2_i = 0, 0
@@ -34,11 +36,13 @@ def MergeSort(list1, list2, q):
 
     q.put(sorted_ls)
 
+
 def mathod1(data_ls):
     start = time.perf_counter()
     BubbleSort(data_ls, None)
     process_time = time.perf_counter() - start
     return data_ls, process_time
+
 
 def method2(data_ls, K):
     sep_arrls = np.array_split(data_ls, K)
@@ -57,6 +61,7 @@ def method2(data_ls, K):
     process_time = time.perf_counter() - start
     return q.get(), process_time
 
+    
 def method3(data_ls, K):
     sep_arrls = np.array_split(data_ls, K)
     sep_ls = [list(arr) for arr in sep_arrls]
@@ -85,6 +90,7 @@ def method3(data_ls, K):
 
     process_time = time.perf_counter() - start
     return q.get(), process_time
+
 
 def method4(data_ls, K):
     sep_arrls = np.array_split(data_ls, K)
@@ -115,11 +121,13 @@ def method4(data_ls, K):
     process_time = time.perf_counter() - start
     return q.get(), process_time
 
+    
 def ReadData(inputFile):
     with open(inputFile, 'r') as f:
         data_ls = list(map(int, f.read().splitlines()))
         
     return data_ls
+
 
 def WriteData(outputFile, data_sorted, cpuTime):
     with open(outputFile, 'w') as f:
@@ -135,6 +143,7 @@ def WriteData(outputFile, data_sorted, cpuTime):
         current_time = time.strftime("%Y-%m-%d %H:%M:%S", now)
         ms = int((time.time() % 1) * 1000)
         f.write(f"Output Time : {current_time}.{ms:06d}+08:00\n")
+
 
 def main():
     fileName = input('Enter file name: ')
@@ -162,5 +171,7 @@ def main():
     WriteData(outputFile, data_sorted, cpuTime)
     print(f'### The results are in {outputFile} ###\n')
 
+
 if __name__ == '__main__':
     main()
+    
