@@ -29,7 +29,7 @@ including FIFO, LRU, LFU+FIFO, MFU+FIFO, LFU+LRU, and a combined ALL method.
 
 ## 寫檔格式
 Output 檔名格式：out_{ Input File Name }.txt，如 [`output/`](output/) 資料夾中的檔案，此資料夾有所有 input 檔案的輸出。 
-每個檔案的輸出格式（如下圖）：
+每個檔案的輸出格式 (如下圖)：
 - 第一列 (紅色框)：方法名稱
 - 中間列：Page Reference 的詳細資訊  
     第一行 (橘色框)：Page Reference String  
