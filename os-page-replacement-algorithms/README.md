@@ -37,7 +37,7 @@ Output 檔名格式：out_{ Input File Name }.txt，如 [`output/`](output/) 資
     第三行 (藍色框)：發生Page Fault 的時間點
 - 最後一列 (紫色框)：數據統計（Page Fault、Page Replaces、Page Frames）
 
-<img src="datapath.png" alt="示意圖" width="500"> 
+<img src="fig1.png" alt="示意圖" width="500"> 
 
 **詳細輸出格式請參照 [`output/`](output/) 資料夾中的檔案**，尤其是分隔符號「-」、White Space、方法名稱（大小寫）、方法順序、Page Frame 順序、數據統計之順序。
 
