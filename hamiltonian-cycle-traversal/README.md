@@ -15,7 +15,7 @@ a practice for implementing and exploring Hamiltonian cycle traversal in graphs
 第一行為頂點及邊的數目 (以空格隔開)，緊接依序為連接邊的兩個頂點，0 0 代表結束。
 
 ## 輸出說明
-列出其中一個漢密頓迴圈（分別以空格隔開），但起點及終點均為頂點 1。
+列出其中一個漢密頓迴圈 (分別以空格隔開)，但起點及終點均為頂點 1。
 
 ## 輸入範例
  (同上面圖形)  
@@ -35,4 +35,23 @@ a practice for implementing and exploring Hamiltonian cycle traversal in graphs
 0 0
 
 ## 輸出範例
+1 2 4 3 7 8 6 5 1
+
+## 程式實際執行情形
+```
+$ python3 main.py
+8 12  
+1 2  
+1 3  
+1 5  
+2 4  
+2 6  
+3 4  
+3 7  
+4 8  
+5 6  
+5 7  
+6 8  
+7 8  
+0 0
 1 2 4 3 7 8 6 5 1
