@@ -2,7 +2,6 @@ from queue import Queue
 from collections import defaultdict
 from queue import Queue
 
-
 def read_input_file(file_path):
     with open(file_path, 'r') as f:
         lines = f.readlines()
