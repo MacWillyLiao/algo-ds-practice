@@ -10,4 +10,6 @@ the practice and implementation of algorithms and data structures
 
 - [**polynomial-horners-rule**](./polynomial-horners-rule/README.md)：使用霍納規則（Horner's Rule）進行多項式求值的實作練習。
 
-- [**hamiltonian-cycle-traversal**](./hamiltonian-cycle-traversal/README.md)：實作與探究圖形中「哈密頓迴路」（Hamiltonian Cycle）走訪演算法的練習。
+- [**hamiltonian-cycle-traversal**](./hamiltonian-cycle-traversal/README.md)：實作與探究圖形中「哈密頓迴路」(Hamiltonian Cycle) 走訪演算法的練習。
+
+- [**water-jug-puzzle**](./water-jug-puzzle/README.md)：經典「水桶謎題」的解法實作。
