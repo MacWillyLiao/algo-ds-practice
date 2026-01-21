@@ -8,7 +8,7 @@ a practice for implementing and exploring Hamiltonian cycle traversal in graphs
 
 <img src="fig1.png" alt="示意圖" width="200">
 
-以上圖為例，則其中一個漢密頓迴圈為：1 2 4 3 7 8 6 5 1 (起點及終點均為頂點 1)。
+以上圖為例，則其中一個漢密頓迴圈為：1 2 4 3 7 8 6 5 1 (起點及終點均為頂點 1)。  
 【註】答案不一定是唯一，僅須列出其中一個漢密頓迴圈即可。
 
 ## 輸入說明
