@@ -4,7 +4,6 @@ import queue
 import multiprocessing
 import numpy as np
 
-
 def BubbleSort(data_ls, q):
     list_len = len(data_ls)
     for i in range(list_len):
@@ -175,3 +174,4 @@ def main():
 if __name__ == '__main__':
     main()
     
+
