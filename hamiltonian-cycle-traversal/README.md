@@ -37,7 +37,7 @@ a practice for implementing and exploring Hamiltonian cycle traversal in graphs
 ## 輸出範例
 1 2 4 3 7 8 6 5 1
 
-## 程式實際執行情形
+## 程式實際執行狀況
 ```
 $ python3 main.py
 8 12  
