@@ -6,7 +6,7 @@ a practice for implementing and exploring Hamiltonian cycle traversal in graphs
 
 漢密爾頓迴圈 (Hamiltonian Cycle) 的定義如下：從某一頂點出發 (如頂點 1)，陸續對其他頂點走訪，但每一頂點僅能走訪一次，且回到原出發點形成迴圈。本題中，將給定圖形，且漢密爾頓迴圈一定存在，用程式列出其中一個漢密爾頓迴圈，且其出發點為頂點 1。
 
-![Figure 1](fig1.png)
+<img src="fig1.png" alt="示意圖" width="150">
 
 以上圖為例，則其中一個漢密頓迴圈為：1 2 4 3 7 8 6 5 1 (起點及終點均為頂點 1)。
 【註】答案不一定是唯一，僅須列出其中一個漢密頓迴圈即可。
