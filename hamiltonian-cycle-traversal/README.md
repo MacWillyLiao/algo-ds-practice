@@ -18,8 +18,8 @@ a practice for implementing and exploring Hamiltonian cycle traversal in graphs
 列出其中一個漢密頓迴圈 (分別以空格隔開)，但起點及終點均為頂點 1。
 
 ## 輸入 / 輸出範例
-(同上面圖形) 
-輸入：
+(同上面圖形)   
+輸入：  
 8 12  
 1 2  
 1 3  
@@ -35,7 +35,7 @@ a practice for implementing and exploring Hamiltonian cycle traversal in graphs
 7 8  
 0 0
 
-輸出：
+輸出：  
 1 2 4 3 7 8 6 5 1
 
 ## 程式實際執行狀況
