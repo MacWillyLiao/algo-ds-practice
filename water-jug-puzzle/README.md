@@ -24,7 +24,7 @@ a practice for solving the classic Water Jug Puzzle
 
 其中，Pour A B 表示將水桶 A 倒水到水桶 B 中。
 
-<img src="fig1.png" alt="示意圖" width="350">
+<img src="fig1.png" alt="示意圖" width="450">
 
 【註一】本題中你可以假設給定的謎題一定有解。  
 【註二】水桶 A 與水桶 B 在剛開始時皆是空的。
