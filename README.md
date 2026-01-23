@@ -15,3 +15,5 @@ the practice and implementation of algorithms and data structures
 - [**water-jug-puzzle**](./water-jug-puzzle/README.md)：經典「水桶謎題」的解法實作。
 
 - [**connected-component-labeling**](./connected-component-labeling/README.md)：影像中「連通分量標記」(Connected Component Labeling, CCL) 的實作練習。
+
+- [**pushing-box-game**](./pushing-box-game/README.md)：在二維迷宮中解決「推箱子遊戲」的實作練習。
