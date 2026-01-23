@@ -13,3 +13,5 @@ the practice and implementation of algorithms and data structures
 - [**hamiltonian-cycle-traversal**](./hamiltonian-cycle-traversal/README.md)：實作與探究圖形中「哈密頓迴路」(Hamiltonian Cycle) 走訪演算法的練習。
 
 - [**water-jug-puzzle**](./water-jug-puzzle/README.md)：經典「水桶謎題」的解法實作。
+
+- [**connected-component-labeling**](./connected-component-labeling/README.md)：影像中「連通分量標記」(Connected Component Labeling, CCL) 的實作練習。
